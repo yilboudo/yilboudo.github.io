@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C Brugnara | Yann Ilboudo</title>
+    <link>/author/c-brugnara/</link>
+      <atom:link href="/author/c-brugnara/index.xml" rel="self" type="application/rss+xml" />
+    <description>C Brugnara</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Yann Ilboudo</copyright><lastBuildDate>Tue, 18 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>C Brugnara</title>
+      <link>/author/c-brugnara/</link>
+    </image>
+    
+    <item>
+      <title>The genetics of red blood cell density in sickle cell disease patients. (Poster Presentation)</title>
+      <link>/talk/ashg2016/</link>
+      <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>/talk/ashg2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The importance of red blood cells hydration in sickle cell disease patients. (Oral Presentation)</title>
+      <link>/talk/icm2016/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/talk/icm2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

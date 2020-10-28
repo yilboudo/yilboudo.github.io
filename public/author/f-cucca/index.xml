@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>F Cucca | Yann Ilboudo</title>
+    <link>/author/f-cucca/</link>
+      <atom:link href="/author/f-cucca/index.xml" rel="self" type="application/rss+xml" />
+    <description>F Cucca</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Yann Ilboudo</copyright><lastBuildDate>Tue, 17 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>F Cucca</title>
+      <link>/author/f-cucca/</link>
+    </image>
+    
+    <item>
+      <title>Trans-ethnic meta-analysis of fetal hemoglobin genome-wide association results identifies common variants at the KLF1 locus. (Poster Presentation)</title>
+      <link>/talk/ashg2017/</link>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>/talk/ashg2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The discovery of genetic loci associated with fetal hemoglobin levels in sickle cell disease patients through epigenomic prioritization. (Oral Presentation)</title>
+      <link>/talk/icm2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/talk/icm2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

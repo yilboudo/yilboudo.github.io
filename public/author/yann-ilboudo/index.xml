@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yann Ilboudo</title>
+    <link>/author/yann-ilboudo/</link>
+      <atom:link href="/author/yann-ilboudo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yann Ilboudo</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Yann Ilboudo</copyright><lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Yann Ilboudo</title>
+      <link>/author/yann-ilboudo/</link>
+    </image>
+    
+    <item>
+      <title>Potential causal role of l-glutamine in sickle cell disease painful crises: A Mendelian randomization analysis</title>
+      <link>/publication/lglutamine/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/lglutamine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A common functional PIEZO1 deletion allele associates with red blood cell density in sickle cell disease patients.</title>
+      <link>/publication/piezo1_genotype/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/piezo1_genotype/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genome-wide association study of erythrocyte density in sickle cell disease patients.</title>
+      <link>/publication/drbc_gwas/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/drbc_gwas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variant-aware saturating mutagenesis using multiple Cas9 nucleases identifies regulatory elements at trait-associated loci.</title>
+      <link>/publication/crispr_myb/</link>
+      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/crispr_myb/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

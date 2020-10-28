@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Telen M | Yann Ilboudo</title>
+    <link>/author/telen-m/</link>
+      <atom:link href="/author/telen-m/index.xml" rel="self" type="application/rss+xml" />
+    <description>Telen M</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Yann Ilboudo</copyright><lastBuildDate>Mon, 30 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Telen M</title>
+      <link>/author/telen-m/</link>
+    </image>
+    
+    <item>
+      <title>Metabolite Signatures of Organ Dysfunction in Sickle Cell Disease Patients. (Poster Presentation)</title>
+      <link>/talk/rmga2018/</link>
+      <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>/talk/rmga2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metabolomics in Sickle Cell Disease: Searching for severity biomarkers. (Oral Presentation)</title>
+      <link>/talk/icm2018/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/talk/icm2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metabolite signatures of organ dysfunction in sickle cell disease patients. (Poster Presentation)</title>
+      <link>/talk/recomb2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/talk/recomb2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
