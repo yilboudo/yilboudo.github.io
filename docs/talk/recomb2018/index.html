@@ -1,0 +1,1256 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 4.8.0 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Yann Ilboudo">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Sickle cell disease (SCD) is a monogenic disease caused by mutations in the β-globin gene. The complications related to the disease are systemic as they impact multiple organ systems. Our goal in this study was to identify metabolome changes contributing to SCD-related severity. Employing both targeted and untargeted approaches, we profiled the plasma of 706 SCD patients using liquid chromatography tandem mass spectrometry. The cohort included 406 French patients of recent African descent and 300 African Americans from the southeastern US. In total, we measured the levels of 61 known and 2,100 unknown metabolites. We applied weighted gene correlation network analysis (WGCNA) algorithms to account for correlations among metabolites and identify specific metabolomic modules associated with SCD-related complications. Finally, we incorporated genetic data from 30 million SNPs to the modules in order to identify the biological pathways implicated by the unknown metabolites. We constructed 66 modules containing at least 7 metabolites per module. Correlating these modules to 15 clinically important phenotypes (6 complications and 11 hematological traits), we found a module strongly associated with increased risks of gall bladder removal. That particular module contained 4 known metabolites (glycocholate, glycodeoxycholate, taurocholate, and taurodeoxycholate) involved in bile acid metabolism, and 20 unknown metabolites. Additionally, we found another module of metabolites strongly correlated with estimated glomerular filtration rate (eGFR). The module contained several carboxylic acids metabolites (citrulline, 4-acetamidobutanoate, symmetric dimethylarginine) as well as metabolites involved in purine and pyrimidine metabolism. Moreover, for eGFR, the same module included 114 unknown metabolites. We performed a GWAS for each of the 39 most robust modules, which resulted in two modules strongly associated with SNPs (FDR &lt; 0.05). We found that one of these two modules was significantly associated (P &lt; 8.0 x 10-10) with multiple SNPs near the gene encoding for hepatic triglyceride lipase (LIPC). Using metabolomics, we identified metabolomic signatures of liver, gall bladder, and kidney complications in SCD. Although hemolysis is the key determinant of organ damage in SCD, understanding which specific metabolite or metabolic pathway plays a role in organ dysfunction can be exploited to predict SCD severity. The module we found to be associated with the LIPC variants suggest that triglycerides could play an important role in the progression of SCD. Determining the causal role of the metabolites involved within the module and how they relate to complications may be key to our understanding of the role of blood lipids in SCD.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="www.yannilboudo.com/talk/recomb2018/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/www.yannilboudo.com/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/www.yannilboudo.com/css/wowchemy.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/www.yannilboudo.com/index.webmanifest">
+  <link rel="icon" type="image/png" href="/www.yannilboudo.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/www.yannilboudo.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="www.yannilboudo.com/talk/recomb2018/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Yann Ilboudo">
+  <meta property="og:url" content="www.yannilboudo.com/talk/recomb2018/">
+  <meta property="og:title" content="Metabolite signatures of organ dysfunction in sickle cell disease patients. (Poster Presentation) | Yann Ilboudo">
+  <meta property="og:description" content="Sickle cell disease (SCD) is a monogenic disease caused by mutations in the β-globin gene. The complications related to the disease are systemic as they impact multiple organ systems. Our goal in this study was to identify metabolome changes contributing to SCD-related severity. Employing both targeted and untargeted approaches, we profiled the plasma of 706 SCD patients using liquid chromatography tandem mass spectrometry. The cohort included 406 French patients of recent African descent and 300 African Americans from the southeastern US. In total, we measured the levels of 61 known and 2,100 unknown metabolites. We applied weighted gene correlation network analysis (WGCNA) algorithms to account for correlations among metabolites and identify specific metabolomic modules associated with SCD-related complications. Finally, we incorporated genetic data from 30 million SNPs to the modules in order to identify the biological pathways implicated by the unknown metabolites. We constructed 66 modules containing at least 7 metabolites per module. Correlating these modules to 15 clinically important phenotypes (6 complications and 11 hematological traits), we found a module strongly associated with increased risks of gall bladder removal. That particular module contained 4 known metabolites (glycocholate, glycodeoxycholate, taurocholate, and taurodeoxycholate) involved in bile acid metabolism, and 20 unknown metabolites. Additionally, we found another module of metabolites strongly correlated with estimated glomerular filtration rate (eGFR). The module contained several carboxylic acids metabolites (citrulline, 4-acetamidobutanoate, symmetric dimethylarginine) as well as metabolites involved in purine and pyrimidine metabolism. Moreover, for eGFR, the same module included 114 unknown metabolites. We performed a GWAS for each of the 39 most robust modules, which resulted in two modules strongly associated with SNPs (FDR &lt; 0.05). We found that one of these two modules was significantly associated (P &lt; 8.0 x 10-10) with multiple SNPs near the gene encoding for hepatic triglyceride lipase (LIPC). Using metabolomics, we identified metabolomic signatures of liver, gall bladder, and kidney complications in SCD. Although hemolysis is the key determinant of organ damage in SCD, understanding which specific metabolite or metabolic pathway plays a role in organ dysfunction can be exploited to predict SCD severity. The module we found to be associated with the LIPC variants suggest that triglycerides could play an important role in the progression of SCD. Determining the causal role of the metabolites involved within the module and how they relate to complications may be key to our understanding of the role of blood lipids in SCD."><meta property="og:image" content="/www.yannilboudo.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/www.yannilboudo.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    
+    
+  
+
+  
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "www.yannilboudo.com/talk/recomb2018/"
+  },
+  "name": "Metabolite signatures of organ dysfunction in sickle cell disease patients. (Poster Presentation)",
+  
+  "location": {
+    "@type": "Place",
+    "name": "NYU Langone Health",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "550 1st Avenue",
+      "addressLocality": "New York City",
+      "postalCode": "10016",
+      "addressRegion": "NY",
+      "addressCountry": "United States"
+    }
+    
+  },
+  
+  
+  "startDate": "0001-01-01T00:00:00Z",
+  
+  "endDate": "2018-12-10T00:00:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Y Ilboudo"
+  },
+  
+  "description": "Sickle cell disease (SCD) is a monogenic disease caused by mutations in the β-globin gene. The complications related to the disease are systemic as they impact multiple organ systems. Our goal in this study was to identify metabolome changes contributing to SCD-related severity. Employing both targeted and untargeted approaches, we profiled the plasma of 706 SCD patients using liquid chromatography tandem mass spectrometry. The cohort included 406 French patients of recent African descent and 300 African Americans from the southeastern US. In total, we measured the levels of 61 known and 2,100 unknown metabolites. We applied weighted gene correlation network analysis (WGCNA) algorithms to account for correlations among metabolites and identify specific metabolomic modules associated with SCD-related complications. Finally, we incorporated genetic data from 30 million SNPs to the modules in order to identify the biological pathways implicated by the unknown metabolites. We constructed 66 modules containing at least 7 metabolites per module. Correlating these modules to 15 clinically important phenotypes (6 complications and 11 hematological traits), we found a module strongly associated with increased risks of gall bladder removal. That particular module contained 4 known metabolites (glycocholate, glycodeoxycholate, taurocholate, and taurodeoxycholate) involved in bile acid metabolism, and 20 unknown metabolites. Additionally, we found another module of metabolites strongly correlated with estimated glomerular filtration rate (eGFR). The module contained several carboxylic acids metabolites (citrulline, 4-acetamidobutanoate, symmetric dimethylarginine) as well as metabolites involved in purine and pyrimidine metabolism. Moreover, for eGFR, the same module included 114 unknown metabolites. We performed a GWAS for each of the 39 most robust modules, which resulted in two modules strongly associated with SNPs (FDR \u003c 0.05). We found that one of these two modules was significantly associated (P \u003c 8.0 x 10-10) with multiple SNPs near the gene encoding for hepatic triglyceride lipase (LIPC). Using metabolomics, we identified metabolomic signatures of liver, gall bladder, and kidney complications in SCD. Although hemolysis is the key determinant of organ damage in SCD, understanding which specific metabolite or metabolic pathway plays a role in organ dysfunction can be exploited to predict SCD severity. The module we found to be associated with the LIPC variants suggest that triglycerides could play an important role in the progression of SCD. Determining the causal role of the metabolites involved within the module and how they relate to complications may be key to our understanding of the role of blood lipids in SCD."
+}
+</script>
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Metabolite signatures of organ dysfunction in sickle cell disease patients. (Poster Presentation) | Yann Ilboudo</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+    <script>window.wcDarkLightEnabled = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/www.yannilboudo.com/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/www.yannilboudo.com/">Yann Ilboudo</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/www.yannilboudo.com/">Yann Ilboudo</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/www.yannilboudo.com/#hero"><span></span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/www.yannilboudo.com/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/www.yannilboudo.com/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/www.yannilboudo.com/#accomplishments"><span>Awards & Accomplishments</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/www.yannilboudo.com/#experience"><span>Relevant Experiences</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/www.yannilboudo.com/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/www.yannilboudo.com/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Metabolite signatures of organ dysfunction in sickle cell disease patients. (Poster Presentation)</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span ><a href="www.yannilboudo.com/author/y-ilboudo/">Y Ilboudo</a></span>, <span ><a href="www.yannilboudo.com/author/m-garret/">M Garret</a></span>, <span ><a href="www.yannilboudo.com/author/a-ashley-koch/">A Ashley-Koch</a></span>, <span ><a href="www.yannilboudo.com/author/telen-m/">Telen M</a></span>, <span ><a href="www.yannilboudo.com/author/g-lettre/">G Lettre</a></span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/www.yannilboudo.com/recomb2018/WGCNA_Recomb_Poster.pdf" >
+    
+    Poster
+  </a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract">Sickle cell disease (SCD) is a monogenic disease caused by mutations in the β-globin gene. The complications related to the disease are systemic as they impact multiple organ systems. Our goal in this study was to identify metabolome changes contributing to SCD-related severity. Employing both targeted and untargeted approaches, we profiled the plasma of 706 SCD patients using liquid chromatography tandem mass spectrometry. The cohort included 406 French patients of recent African descent and 300 African Americans from the southeastern US. In total, we measured the levels of 61 known and 2,100 unknown metabolites. We applied weighted gene correlation network analysis (WGCNA) algorithms to account for correlations among metabolites and identify specific metabolomic modules associated with SCD-related complications. Finally, we incorporated genetic data from 30 million SNPs to the modules in order to identify the biological pathways implicated by the unknown metabolites. We constructed 66 modules containing at least 7 metabolites per module. Correlating these modules to 15 clinically important phenotypes (6 complications and 11 hematological traits), we found a module strongly associated with increased risks of gall bladder removal. That particular module contained 4 known metabolites (glycocholate, glycodeoxycholate, taurocholate, and taurodeoxycholate) involved in bile acid metabolism, and 20 unknown metabolites. Additionally, we found another module of metabolites strongly correlated with estimated glomerular filtration rate (eGFR). The module contained several carboxylic acids metabolites (citrulline, 4-acetamidobutanoate, symmetric dimethylarginine) as well as metabolites involved in purine and pyrimidine metabolism. Moreover, for eGFR, the same module included 114 unknown metabolites. We performed a GWAS for each of the 39 most robust modules, which resulted in two modules strongly associated with SNPs (FDR &lt; 0.05). We found that one of these two modules was significantly associated (P &lt; 8.0 x 10-10) with multiple SNPs near the gene encoding for hepatic triglyceride lipase (LIPC). Using metabolomics, we identified metabolomic signatures of liver, gall bladder, and kidney complications in SCD. Although hemolysis is the key determinant of organ damage in SCD, understanding which specific metabolite or metabolic pathway plays a role in organ dysfunction can be exploited to predict SCD severity. The module we found to be associated with the LIPC variants suggest that triglycerides could play an important role in the progression of SCD. Determining the causal role of the metabolites involved within the module and how they relate to complications may be key to our understanding of the role of blood lipids in SCD.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Jan 1, 0001 12:00 AM &mdash; Dec 10, 2018 12:00 AM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://www.iscb.org/recomb-regsysgen2018" target="_blank" rel="noopener">
+            RECOMB/ISCB Conference on Regulatory and Systems Genomics
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">NYU Langone Health</div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9">550 1st Avenue, New York City, NY 10016</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=www.yannilboudo.com/talk/recomb2018/&amp;text=Metabolite%20signatures%20of%20organ%20dysfunction%20in%20sickle%20cell%20disease%20patients.%20%28Poster%20Presentation%29" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=www.yannilboudo.com/talk/recomb2018/&amp;t=Metabolite%20signatures%20of%20organ%20dysfunction%20in%20sickle%20cell%20disease%20patients.%20%28Poster%20Presentation%29" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Metabolite%20signatures%20of%20organ%20dysfunction%20in%20sickle%20cell%20disease%20patients.%20%28Poster%20Presentation%29&amp;body=www.yannilboudo.com/talk/recomb2018/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=www.yannilboudo.com/talk/recomb2018/&amp;title=Metabolite%20signatures%20of%20organ%20dysfunction%20in%20sickle%20cell%20disease%20patients.%20%28Poster%20Presentation%29" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Metabolite%20signatures%20of%20organ%20dysfunction%20in%20sickle%20cell%20disease%20patients.%20%28Poster%20Presentation%29%20www.yannilboudo.com/talk/recomb2018/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=www.yannilboudo.com/talk/recomb2018/&amp;title=Metabolite%20signatures%20of%20organ%20dysfunction%20in%20sickle%20cell%20disease%20patients.%20%28Poster%20Presentation%29" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/www.yannilboudo.com/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/www.yannilboudo.com/js/wowchemy.min.4c2bca31150ce93c5a5e43b8a50f22fd.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2020 Yann Ilboudo
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
