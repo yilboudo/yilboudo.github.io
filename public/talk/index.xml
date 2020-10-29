@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks | Yann Ilboudo</title>
-    <link>/talk/</link>
-      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>www.yannilboudo.com/talk/</link>
+      <atom:link href="www.yannilboudo.com/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Yann Ilboudo</copyright><lastBuildDate>Tue, 15 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/www.yannilboudo.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Talks</title>
-      <link>/talk/</link>
+      <link>www.yannilboudo.com/talk/</link>
     </image>
     
     <item>
       <title>Causal role of L-glutamine and 3-ureidopropionate in sickle cell disease complications: A Mendelian randomization analysis (Poster Presentation)</title>
-      <link>/talk/ashg2019/</link>
+      <link>www.yannilboudo.com/talk/ashg2019/</link>
       <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/ashg2019/</guid>
+      <guid>www.yannilboudo.com/talk/ashg2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Metabolite Signatures of Organ Dysfunction in Sickle Cell Disease Patients. (Poster Presentation)</title>
-      <link>/talk/rmga2018/</link>
+      <link>www.yannilboudo.com/talk/rmga2018/</link>
       <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/talk/rmga2018/</guid>
+      <guid>www.yannilboudo.com/talk/rmga2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Metabolomics in Sickle Cell Disease: Searching for severity biomarkers. (Oral Presentation)</title>
-      <link>/talk/icm2018/</link>
+      <link>www.yannilboudo.com/talk/icm2018/</link>
       <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/talk/icm2018/</guid>
+      <guid>www.yannilboudo.com/talk/icm2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trans-ethnic meta-analysis of fetal hemoglobin genome-wide association results identifies common variants at the KLF1 locus. (Poster Presentation)</title>
-      <link>/talk/ashg2017/</link>
+      <link>www.yannilboudo.com/talk/ashg2017/</link>
       <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>/talk/ashg2017/</guid>
+      <guid>www.yannilboudo.com/talk/ashg2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The genetics of red blood cell density in sickle cell disease patients. (Poster Presentation)</title>
-      <link>/talk/ashg2016/</link>
+      <link>www.yannilboudo.com/talk/ashg2016/</link>
       <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>/talk/ashg2016/</guid>
+      <guid>www.yannilboudo.com/talk/ashg2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Metabolite signatures of organ dysfunction in sickle cell disease patients. (Poster Presentation)</title>
-      <link>/talk/recomb2018/</link>
+      <link>www.yannilboudo.com/talk/recomb2018/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/talk/recomb2018/</guid>
+      <guid>www.yannilboudo.com/talk/recomb2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The discovery of genetic loci associated with fetal hemoglobin levels in sickle cell disease patients through epigenomic prioritization. (Oral Presentation)</title>
-      <link>/talk/icm2017/</link>
+      <link>www.yannilboudo.com/talk/icm2017/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/talk/icm2017/</guid>
+      <guid>www.yannilboudo.com/talk/icm2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The importance of red blood cells hydration in sickle cell disease patients. (Oral Presentation)</title>
-      <link>/talk/icm2016/</link>
+      <link>www.yannilboudo.com/talk/icm2016/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/talk/icm2016/</guid>
+      <guid>www.yannilboudo.com/talk/icm2016/</guid>
       <description></description>
     </item>
     
