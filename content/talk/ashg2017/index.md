@@ -8,8 +8,8 @@ address:
   street: 9800-9899 International Drive
 all_day: false
 authors: [Y Ilboudo, C Sidore, F Cucca, G Lettre]
-date: 2017-10-17
-date_end: 2017-10-21
+date: "2017-10-17"
+date_end: "2017-10-21"
 event: American Society of Human Genetics
 event_url: https://www.ashg.org/wp-content/uploads/2019/10/2017-Poster-Abstracts.pdf
 featured: false
