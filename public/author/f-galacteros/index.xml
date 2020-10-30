@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>F Galactéros | Yann Ilboudo</title>
-    <link>www.yannilboudo.com/author/f-galacteros/</link>
-      <atom:link href="www.yannilboudo.com/author/f-galacteros/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yannilboudo.com/author/f-galacteros/</link>
+      <atom:link href="https://yannilboudo.com/author/f-galacteros/index.xml" rel="self" type="application/rss+xml" />
     <description>F Galactéros</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Yann Ilboudo</copyright><lastBuildDate>Tue, 15 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/www.yannilboudo.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://yannilboudo.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>F Galactéros</title>
-      <link>www.yannilboudo.com/author/f-galacteros/</link>
+      <link>https://yannilboudo.com/author/f-galacteros/</link>
     </image>
     
     <item>
       <title>Causal role of L-glutamine and 3-ureidopropionate in sickle cell disease complications: A Mendelian randomization analysis (Poster Presentation)</title>
-      <link>www.yannilboudo.com/talk/ashg2019/</link>
+      <link>https://yannilboudo.com/talk/ashg2019/</link>
       <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>www.yannilboudo.com/talk/ashg2019/</guid>
+      <guid>https://yannilboudo.com/talk/ashg2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The genetics of red blood cell density in sickle cell disease patients. (Poster Presentation)</title>
-      <link>www.yannilboudo.com/talk/ashg2016/</link>
+      <link>https://yannilboudo.com/talk/ashg2016/</link>
       <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>www.yannilboudo.com/talk/ashg2016/</guid>
+      <guid>https://yannilboudo.com/talk/ashg2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The importance of red blood cells hydration in sickle cell disease patients. (Oral Presentation)</title>
-      <link>www.yannilboudo.com/talk/icm2016/</link>
+      <link>https://yannilboudo.com/talk/icm2016/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>www.yannilboudo.com/talk/icm2016/</guid>
+      <guid>https://yannilboudo.com/talk/icm2016/</guid>
       <description></description>
     </item>
     

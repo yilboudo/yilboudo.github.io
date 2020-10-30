@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Yann Ilboudo</title>
-    <link>www.yannilboudo.com/post/</link>
-      <atom:link href="www.yannilboudo.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yannilboudo.com/post/</link>
+      <atom:link href="https://yannilboudo.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Yann Ilboudo</copyright><lastBuildDate>Fri, 23 Oct 2020 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>/www.yannilboudo.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://yannilboudo.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
-      <link>www.yannilboudo.com/post/</link>
+      <link>https://yannilboudo.com/post/</link>
     </image>
     
     <item>
       <title>Section under construction</title>
-      <link>www.yannilboudo.com/post/2015-07-23-r-rmarkdown/</link>
+      <link>https://yannilboudo.com/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Fri, 23 Oct 2020 21:13:14 -0500</pubDate>
-      <guid>www.yannilboudo.com/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>https://yannilboudo.com/post/2015-07-23-r-rmarkdown/</guid>
       <description>
 
 
