@@ -10,7 +10,7 @@ education:
     year: 2015 - 2017
   - course: BSc in Bioengineering
     institution: SUNY Binghamton
-    year: 2011
+    year: 2007 - 2011
 email: ""
 highlight_name: false
 interests:
