@@ -54,4 +54,4 @@ user_groups:
 
 PhD candidate at the university of Montreal studying the genetic heterogeneity in sickle cell disease. Under the supervision of Guillaume Lettre at [Montreal Heart Institute](http://www.mhi-humangenetics.org/)
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/website_Yann_Ilboudo_CV_oct272020.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/website_Yann_Ilboudo_CV.pdf" "newtab" >}}resumé{{< /staticref >}}.
