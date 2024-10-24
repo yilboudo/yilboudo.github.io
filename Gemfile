@@ -8,6 +8,7 @@ group :jekyll_plugins do
     gem 'fast-stemmer', '~> 1.0', '>= 1.0.2'
     gem 'http_parser.rb', '~> 0.8.0'
     gem 'json', '~> 2.7', '>= 2.7.3'
+    gem 'rubocop', '~> 1.44.0'
     gem 'update'
     gem 'libv8-node', '~> 22.7', '>= 22.7.0.4'
     gem 'classifier-reborn'
