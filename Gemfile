@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem 'rails', '~> 6.1'
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
