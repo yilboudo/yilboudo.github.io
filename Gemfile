@@ -3,7 +3,6 @@ group :jekyll_plugins do
     gem 'rails', '~> 6.1'
     gem 'eventmachine', '~> 1.2.7', platforms: :ruby
     gem 'update'
-    gem 'libtool'
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
