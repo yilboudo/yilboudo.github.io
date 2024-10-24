@@ -9,6 +9,7 @@ group :jekyll_plugins do
     gem 'http_parser.rb', '~> 0.8.0'
     gem 'json', '~> 2.7', '>= 2.7.3'
     gem 'update'
+    gem 'libv8-node', '~> 22.7', '>= 22.7.0.4'
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
