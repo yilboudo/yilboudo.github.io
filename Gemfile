@@ -3,6 +3,11 @@ group :jekyll_plugins do
     gem 'rails', '~> 6.1'
     gem 'eventmachine', '~> 1.2.7', platforms: :ruby
     gem 'makeconf', '~> 0.2.0'
+    gem 'racc', '~> 1.4', '>= 1.4.14'
+    gem 'nio4r', '~> 2.5', '>= 2.5.8'
+    gem 'fast-stemmer', '~> 1.0', '>= 1.0.2'
+    gem 'http_parser.rb', '~> 0.8.0'
+    gem 'json', '~> 2.7', '>= 2.7.3'
     gem 'update'
     gem 'classifier-reborn'
     gem 'jekyll'
