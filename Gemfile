@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'rails', '~> 6.1'
     gem 'eventmachine', '~> 1.2.7', platforms: :ruby
-    gem 'build-essential'
     gem 'ruby-dev'
     gem 'update'
     gem 'libtool'
