@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'rails', '~> 6.1'
+    gem 'libssl-dev'
+    gem 'build-essential'
+    gem 'ruby-dev'
+    gem 'update'
+    gem 'libtool'
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
