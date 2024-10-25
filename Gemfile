@@ -9,6 +9,7 @@ group :jekyll_plugins do
     gem 'http_parser.rb', '~> 0.8.0'
     gem 'json', '~> 2.7', '>= 2.7.3'
     gem 'rubocop', '~> 1.44.0'
+    gem 'mini_racer'
     gem 'update'
     gem 'libv8-node'
     gem 'classifier-reborn'
@@ -29,7 +30,6 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
 end
