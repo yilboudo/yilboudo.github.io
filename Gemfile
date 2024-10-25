@@ -10,7 +10,7 @@ group :jekyll_plugins do
     gem 'json', '~> 2.7', '>= 2.7.3'
     gem 'rubocop', '~> 1.44.0'
     gem 'update'
-    gem 'libv8-node', '~> 22.7'
+    gem 'libv8-node'
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
